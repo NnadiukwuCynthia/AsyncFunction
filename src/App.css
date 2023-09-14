@@ -5,10 +5,12 @@
   text-align: center;
 }
 .eachItem{
-  width: 300px;
+  width: 100%;
   height: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 .itemImage{
-  width: 100%;
+  width: 300px;
   height: 300px
 }

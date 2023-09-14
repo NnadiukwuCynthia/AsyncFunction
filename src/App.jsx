@@ -5,6 +5,7 @@ import './App.css'
 let API = 'https://fakestoreapi.com/products'
 
 function App () {
+  const [number, setNumber]= useState(1)
   const [title, setTitle] = useState([])
   const [description, setDescription] = useState([])
   const [image, setImage] = useState([])
@@ -23,9 +24,18 @@ function App () {
   return (
     <>
     <main className='eachItem'>
+      <select value={number}>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
+      </select>
+      <section>
       <img src={image} alt='' className='itemImage'/>
-      <h2>{title}</h2>
-      <p>{description}</p>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </section>
     </main>
         
     </>
