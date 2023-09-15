@@ -38,7 +38,7 @@ function App () {
       </select>
        <section className='section'>
        <div className='header'>
-       <h2> Product {number} is listed</h2>
+       <h2> Product {number} is listed here:</h2>
         <h1>{title}</h1>
        </div>
       <div className='product_container'>
