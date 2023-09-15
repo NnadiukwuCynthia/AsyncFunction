@@ -24,6 +24,10 @@ select{
   font-family: 'Rubik', sans-serif;
   padding: 5px;
   font-weight: bold;
+  border: 3px solid blueviolet;
+}
+select:focus{
+  outline: none;
 }
 select option{
   text-align: center;
@@ -31,6 +35,9 @@ select option{
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
   width: 80px;
+  height: 30px;
+  color: #fff;
+  background-color: blueviolet;
 }
 .section{
   display: flex;
